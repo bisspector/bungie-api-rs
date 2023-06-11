@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: rust:slim-bookworm
+    commands:
+      - cargo test

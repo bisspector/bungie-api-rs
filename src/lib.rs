@@ -1,7 +1,6 @@
 pub mod destiny2;
 
 use core::fmt;
-
 use serde::de::DeserializeOwned;
 
 #[derive(Debug)]

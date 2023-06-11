@@ -2,4 +2,5 @@ pipeline:
   build:
     image: rust:slim-bookworm
     commands:
+      - apt update && apt install -y libssl-dev pkg-config
       - cargo test
